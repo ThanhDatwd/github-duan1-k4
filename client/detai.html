@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="">
+            <div class="header-logo">
+                <img src="./images/Logo_Food.png" alt="">
+            </div>
+        </a>
+        <div class="grid_columns header">
+            <ul class="header-menu">
+                <li class="header-menu_item">
+                    <a href="#">Trang chủ</a>
+                </li>
+                <li class="header-menu_item">
+                    <a href="#">Trang chủ</a>
+                </li>
+                <li class="header-menu_item">
+                    <a href="#">Trang chủ</a>
+                </li>
+                <li class="header-menu_item">
+                    <a href="#">Trang chủ</a>
+                </li>
+                <li class="header-menu_item">
+                    <a href="#">Trang chủ</a>
+                </li>
+            </ul>
+
+            <ul class="group-acount">
+                <div class="like">
+                    <i class='bx bx-heart'></i>
+                    <span>1</span>
+                </div>
+                <div class="cart-drop">
+                    <i class='bx bxs-cart'></i>
+                    <span>1</span>
+                </div>
+                <div class="user">
+                    <i class='bx bx-user-circle'></i>
+                </div>
+            </ul>
+        </div>
+
+    </header>
+    <section class="info-page">
+        <h2>Tên của sản phẩm</h2>
+        <p><a href="">Trang chủ</a><span>/</span> <span class="current-page">Tên trang hiện tại</span></p>
+    </section>
+    <section class="info-product">
+        <div class="grid_columns product">
+            <div class="product-image" style="position: relative;">
+                <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                <div class="swiper mySwiper2 product ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+            <div class="product-detail">
+                <h2 class="name"> Chanh không hạt châu mĩ</h2>
+                <div class="price">
+                    <span class="price-new">30000</span>
+                    <span class="price-old">38000</span>
+                    <p> Tiết kiệm :<span class="price-save">8000</span> so với thị trường</p>
+                </div>
+                <p class="inrtro-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odio totam doloribus
+                    similique ullam, in laboriosam error dolore corrupti accusantium nemo dicta veniam excepturi placeat
+                    officiis rem ad soluta. Ex!
+                </p>
+                <div class="weight">
+                    <label for="">Trọng lượng</label>
+                    <button id="weight-1" class="btn active" value="0.5">500g</button>
+                    <button id="weight-1" class="btn active" value="1">1kg</button>
+                </div>
+                <form action="" id="form-order">
+                    <label for="">Số Lượng</label>
+                    <div class="form-group">
+                        <div class="form-amount">
+                            <button><i class='bx bx-minus'></i></button>
+                            <input type="text" value="1" disabled>
+                            <button><i class='bx bx-plus'></i></button>
+                        </div>
+                        <button class=" btn primary btnOrder-now">Mua Ngay</button>
+                    </div>
+                    <button class="btn btn-addToCart primary">Thêm Vào Giỏ Hàng</button>
+                </form>
+            </div>
+            <div class="product-certification">
+                <div class="certification-icon">
+                    <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_1.png" alt="">
+                </div>
+                <div class="certification-txt">100% tự Nhiên</div>
+                <div class="certification-icon">
+                    <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_2.png" alt="">
+                </div>
+                <div class="certification-txt">Chứng Nhận ATTP</div>
+                <div class="certification-icon">
+                    <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_3.png" alt="">
+                </div>
+                <div class="certification-txt">Luôn Luôn Tươi mới</div>
+                <div class="certification-icon">
+                    <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_1.png" alt="">
+                </div>
+                <div class="certification-txt">An toàn sức khỏe</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Xử lí Phần giới thiệu thông tin  và chính sách sản phẩm -->
+    <section class="tab-info-more">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs detail ">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#intro-product">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="grid_columns">
+            <div class="tab-content detail">
+                <div class="tab-pane container active" id="intro-product">
+                    <p>Chanh là một số loài thực vật cho quả nhỏ, thuộc chi Cam chanh (Citrus), khi chín có màu xanh
+                        hoặc
+                        vàng, thịt quả có vị chua. Quả chanh được sử dụng làm thực phẩm trên khắp thế giới - chủ yếu
+                        dùng
+                        nước ép của nó, thế nhưng phần cơm (các múi của chanh) và vỏ (zest) cũng được sử dụng, chủ yếu
+                        là
+                        trong nấu ăn và nướng bánh. Nước ép chanh chứa khoảng 5% (khoảng 0,3 mol / lít) axit citric,
+                        điều
+                        này giúp chanh có vị chua, và độ pH của chanh từ 2-3. Điều này làm cho nước ép chanh không đắt,
+                        có
+                        thể sử dụng thay axít cho các thí nghiệm khoa học trong giáo dục. Bởi vì có vị chua, nhiều thức
+                        uống
+                        và kẹo có mùi vị đã xuất hiện, bao gồm cả nước chanh.</p>
+                </div>
+                <div class="tab-pane container fade" id="menu1">...</div>
+                <div class="tab-pane container fade" id="menu2">...</div>
+            </div>
+        </div>
+    </section>
+    <div class="app-title">
+        <a href="">Sản phẩm liên quan</a>
+    </div>
+    <section class="product-same">
+        <div class="grid_columns">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper " id="listProduct-same">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Phần Hiển thị danh sách đã xem  -->
+    <div class="app-title">
+        <a href="">Sản phẩm đã xem</a>
+    </div>
+    <section class="product-watched">
+        <div class="grid_columns">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper " id="listProduct-watched">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <div class="product-cart">
+                                <div class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/large/100/431/449/products/sp6-2.jpg?v=1625548896893"
+                                        alt="">
+                                    <div class="option">
+                                        <div class="setLikeList"><i class='bx bx-heart'></i></div>
+                                        <div class="setAddingCart"><i class='bx bxs-cart'></i></i></div>
+                                    </div>
+                                </div>
+                                <div class="cart-txt">
+                                    <span class="product-name">Trái cam mật</span>
+                                    <div class="price">
+                                        <span class="price-new">40000</span>
+                                        <span class="price-old">50000</span>
+                                    </div>
+                                </div>
+                                <div class="discount">20%</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="grid_columns active">
+            <div class="grid_columns-col-3" >
+                <div class="col-mailchimp">
+                    <h5>ĐĂNG KÍ NHẬN THÔNG TIN</h5>
+                    <p>Đăng kí thông tin để nhận được những thông báo ưu đãi sớm nhất</p>
+                        <div class="form-group">
+                            <input type="text" id="mailChimp" placeholder="Nhập email của bạn">
+                            <button>Đăng kí</button>
+                        </div>
+                </div>
+            </div>
+            <div class="grid_columns-col-3">
+                <div class="col-infoCompany">
+                    <div class="infoCompany-img">
+                        <img src="./images/Logo_Food.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam recusandae maxime optio
+                        libero ad, earum mollitia quibusdam ratione omnis iusto, deleniti eius labore exercitationem
+                        vel explicabo molestias nesciunt neque fugit?
+                    </p>
+                </div>
+            </div>
+            <div class="grid_columns-col-3">
+                <div class="col-wayContact">
+                    <h5>LIÊN HỆ VỚI CHÚNG TÔI</h5>
+                    <li> <strong class="address_c">Địa chỉ</strong> <a href="">123 tp Hồ chí Minh Việt Nam</a> </li>
+                    <li> <strong class="phone_c">Điện thoại</strong><a href="#">0123499999</a></li>
+                    <li> <strong class="mail_c">Email</strong><a href="">thefood@gmail.com</a> </li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+
+</body>
+
+</html>
